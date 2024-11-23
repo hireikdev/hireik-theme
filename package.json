@@ -1,0 +1,47 @@
+{
+  "name": "hireik-theme",
+  "version": "1.0.0",
+  "description": "Hireik UI Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.2.15",
+    "prettier": "^3.0.0",
+    "react": "^18.3.1",
+    "rollup": "^4.13.2",
+    "rollup-plugin-css-only": "^4.5.2",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "tslib": "^2.6.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.1",
+    "@rehookify/datepicker": "^6.5.0",
+    "react-dropzone": "^14.2.3",
+    "react-quill": "^2.0.0",
+    "react-select": "^5.7.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hireikdev/hireik-theme.git"
+  },
+  "keywords": [
+    "hireik",
+    "UI",
+    "Library"
+  ],
+  "author": "hireikdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hireikdev/hireik-theme/issues"
+  },
+  "homepage": "https://github.com/hireikdev/hireik-theme#readme"
+}
