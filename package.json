@@ -1,11 +1,21 @@
 {
   "name": "hireik-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hireik UI Library",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c",
+    "prepare": "npm run build",
+    "prettier": "prettier . --write"
   },
+  "keywords": [
+    "hireik",
+    "mui",
+    "theme",
+    "custom-theme"
+  ],
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
@@ -33,13 +43,11 @@
     "type": "git",
     "url": "git+https://github.com/hireikdev/hireik-theme.git"
   },
-  "keywords": [
-    "hireik",
-    "UI",
-    "Library"
-  ],
   "author": "hireikdev",
-  "license": "ISC",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/hireikdev/hireik-theme/issues"
   },
